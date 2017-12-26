@@ -1,33 +1,34 @@
+require_relative './lib/screen'
 require_relative './lib/board'
 
 class Game
-  attr_reader :board
+  attr_reader :board, :screen
   def initialize
-    # @board = %w(0 1 2 3 4 5 6 7 8) #Board::OPTIONS
     @board = Board.new
     @com = Board::CROSS
     @hum = Board::NOUGHT
+    @screen = Screen
   end
 
   def start_game
     # start by printing the board
     board.draw
-    puts "Enter [0-8]:"
     # loop through until the game was won or tied
     until game_is_over? || tie?
       get_human_spot
       if !game_is_over? && !tie?
         eval_board
       end
+      screen.clear
       board.draw
     end
-    puts "Game over"
+    screen.message 'Game over', :error
   end
 
   def get_human_spot
     spot = nil
     until spot
-      spot = gets.chomp.to_i
+      spot = screen.choice board.available_options, 'Enter', 'Error'
       if board.options[spot] != Board::CROSS && board.options[spot] != Board::NOUGHT
         board.options[spot] = @hum
       else
@@ -95,5 +96,6 @@ class Game
   end
 end
 
+Screen::clear
 game = Game.new
 game.start_game
