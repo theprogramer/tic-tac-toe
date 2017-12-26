@@ -48,6 +48,12 @@ class Board
 
   # Tie
   def tie
-    options.all? { |s| s == Board::CROSS || s == Board::NOUGHT }
+    options.all? { |s| s == CROSS || s == NOUGHT }
+  end
+
+  # Available options
+  def available_options
+    options.reject { |k| k == CROSS || k == NOUGHT }
+           .map(&:to_i)
   end
 end
