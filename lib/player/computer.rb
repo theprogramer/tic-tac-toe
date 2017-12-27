@@ -6,11 +6,12 @@ module Player
       until spot
         if game.board.options[4] == "4"
           spot = 4
-          game.board.options[spot] = game.com
+          game.board.options[spot] = marker
         else
-          spot = get_best_move(game.board.options, game.com)
+          #spot = get_best_move(game.board.options, marker)
+          spot = get_best_move(game.board.options, game.opponent_marker(marker))
           if game.board.options[spot] != 'X' && game.board.options[spot] != 'O'
-            game.board.options[spot] = game.com
+            game.board.options[spot] = marker
           else
             spot = nil
           end
@@ -28,13 +29,13 @@ module Player
       # end
       game.board.available_options.each do |as|
       # available_spaces.each do |as|
-        board[as] = game.com
+        board[as] = marker
         if game.game_is_over?
           best_move = as
           board[as] = as
           return best_move
         else
-          board[as] = game.hum
+          board[as] = game.opponent_marker(marker)
           if game.game_is_over?
             best_move = as
             board[as] = as
