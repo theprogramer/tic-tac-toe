@@ -8,8 +8,7 @@ module Player
           spot = 4
           game.board.options[spot] = marker
         else
-          #spot = get_best_move(game.board.options, marker)
-          spot = get_best_move(game.board.options, game.opponent_marker(marker))
+          spot = get_best_move(game.board.options, marker)
           if game.board.options[spot] != 'X' && game.board.options[spot] != 'O'
             game.board.options[spot] = marker
           else
@@ -20,15 +19,8 @@ module Player
     end
 
     def get_best_move(board, next_player, depth = 0, best_score = {})
-      # available_spaces = []
       best_move = nil
-      # board.each do |s|
-      #   if s != 'X' && s != 'O'
-      #     available_spaces << s
-      #   end
-      # end
       game.board.available_options.each do |as|
-      # available_spaces.each do |as|
         board[as] = marker
         if game.game_is_over?
           best_move = as
@@ -48,8 +40,7 @@ module Player
       if best_move
         return best_move
       else
-        n = game.board.available_options.sample
-        return game.board.available_options[n]
+        return game.board.available_options.sample
       end
     end
   end
