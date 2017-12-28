@@ -11,17 +11,24 @@ class Game
     [2, 'Computer vs Computer']
   ].freeze
 
-  attr_reader :board,
-              :screen,
-              :cross,
+  LEVELS = [
+    [0, 'Easy'],
+    [1, 'Normal'],
+    [2, 'Hard']
+  ].freeze
+
+  attr_accessor :board,
+                :screen
+  attr_reader :cross,
               :nought,
               :mode
 
-  def initialize
-    @board = Board.new
-    @cross = Board::CROSS
-    @nought = Board::NOUGHT
-    @screen = Screen
+  def board
+    @board ||= Board.new
+  end
+
+  def screen
+    @screen ||= Screen
   end
 
   def players
@@ -42,7 +49,10 @@ class Game
     when 0
       # Human vs Computer
       add_player Player::Human.new(self, nought)
-      add_player Player::Computer.new(self, cross)
+      level = screen.choice LEVELS,
+                          'Choose the game level:',
+                          'Choose the correct game level'
+      add_player Player::Computer.new(self, cross, level)
     when 1
       # Human vs Human
       add_player Player::Human.new(self, nought)
@@ -55,6 +65,7 @@ class Game
   end
 
   def start
+    screen.clear
     set_mode
     initialize_players
     # loop through until the game was won or tied
@@ -88,12 +99,19 @@ class Game
     board.class::MARKERS
   end
 
+  def cross
+    board.class::CROSS
+  end
+
+  def nought
+    board.class::NOUGHT
+  end
+
   def opponent_marker(mkr = '-')
     return markers[0] if markers.index(mkr) > 0
     markers[1]
   end
 end
 
-Screen::clear
 game = Game.new
 game.start
