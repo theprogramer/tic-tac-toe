@@ -1,47 +1,53 @@
 require_relative './base'
 module Player
+  # Player Computer class
   class Computer < Base
-    def spot
-      spot = nil
-      until spot
-        if game.board.options[4] == "4"
-          spot = 4
-          game.board.options[spot] = marker
-        else
-          spot = get_best_move(game.board.options, marker)
-          if game.board.options[spot] != 'X' && game.board.options[spot] != 'O'
-            game.board.options[spot] = marker
-          else
-            spot = nil
-          end
-        end
-      end
+    # AI dificult levels
+    AI_HARD = 2
+    AI_NORMAL = 1
+    AI_EASY = 0
+
+    attr_accessor :level
+
+    def initialize(game = nil, mkr = '-', level = 2)
+      super(game, mkr)
+      @level = level
     end
 
-    def get_best_move(board, next_player, depth = 0, best_score = {})
-      best_move = nil
+    def spot
+      move = case level
+             when AI_HARD
+               hard_move || normal_move || easy_move
+             when AI_NORMAL
+               normal_move || easy_move
+             else
+               easy_move
+             end
+      game.board.options[move] = marker
+    end
+
+    def hard_move
+      return 4 if game.board.options[4] == '4'
+    end
+
+    def normal_move
       game.board.available_options.each do |as|
-        board[as] = marker
-        if game.game_is_over?
-          best_move = as
-          board[as] = as
-          return best_move
-        else
-          board[as] = game.opponent_marker(marker)
-          if game.game_is_over?
-            best_move = as
-            board[as] = as
-            return best_move
-          else
-            board[as] = as
-          end
-        end
+        return as if best_move?(as, marker)
+        return as if best_move?(as, game.opponent_marker(marker))
       end
-      if best_move
-        return best_move
-      else
-        return game.board.available_options.sample
-      end
+      nil
+    end
+
+    def easy_move
+      game.board.available_options.sample
+    end
+
+    def best_move?(option = 0, mrk = '-')
+      result = false
+      game.board.options[option] = mrk
+      result = true if game.game_is_over?
+      game.board.options[option] = option
+      result
     end
   end
 end
