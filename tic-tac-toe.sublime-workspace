@@ -1,0 +1,930 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"op",
+				"options"
+			],
+			[
+				"game",
+				"game_is_over"
+			],
+			[
+				"tr",
+				"transitionName"
+			],
+			[
+				"fetch",
+				"fetchSingle"
+			],
+			[
+				"section",
+				"sectionLoading"
+			],
+			[
+				"so",
+				"sortOrder"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"transcoded",
+				"transcoded_movie"
+			],
+			[
+				"entry",
+				"entry_publisher"
+			],
+			[
+				"bytes_",
+				"bytes_complete"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"sear",
+				"searchMode"
+			],
+			[
+				"checked",
+				"checked_status"
+			],
+			[
+				"lo",
+				"loaded"
+			],
+			[
+				"swit",
+				"switchType"
+			],
+			[
+				"borde",
+				"border-radius"
+			],
+			[
+				"publisher",
+				"publisher_type"
+			],
+			[
+				"location",
+				"location_type"
+			],
+			[
+				"no",
+				"noneighborhood"
+			],
+			[
+				"set",
+				"setMarkers"
+			],
+			[
+				"col",
+				"col-lg-8"
+			],
+			[
+				"data",
+				"data_file_path"
+			],
+			[
+				"card",
+				"card_type"
+			],
+			[
+				"send",
+				"sendNotification"
+			],
+			[
+				"margin-",
+				"margin-top"
+			],
+			[
+				"Bem",
+				"Bem-vindo"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"backg",
+				"background-repeat"
+			],
+			[
+				"se",
+				"search"
+			],
+			[
+				"job_",
+				"job_title"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"availabily",
+				"Availability"
+			],
+			[
+				"text-",
+				"text-transform"
+			],
+			[
+				"content",
+				"content_tag"
+			],
+			[
+				"is",
+				"is_housemaid"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "README.md",
+			"settings":
+			{
+				"buffer_size": 1166,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "game.rb",
+			"settings":
+			{
+				"buffer_size": 1933,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lib/board.rb",
+			"settings":
+			{
+				"buffer_size": 1316,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lib/screen.rb",
+			"settings":
+			{
+				"buffer_size": 910,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lib/player/base.rb",
+			"settings":
+			{
+				"buffer_size": 207,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lib/player/computer.rb",
+			"settings":
+			{
+				"buffer_size": 1392,
+				"encoding": "UTF-8",
+				"line_ending": "Unix",
+				"name": "module Player"
+			}
+		},
+		{
+			"file": "lib/player/human.rb",
+			"settings":
+			{
+				"buffer_size": 239,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "ru",
+		"selected_items":
+		[
+			[
+				"ru",
+				"Set Syntax: Ruby"
+			],
+			[
+				"er",
+				"Set Syntax: Erlang"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"rub",
+				"Set Syntax: Ruby"
+			],
+			[
+				"slim",
+				"Set Syntax: Ruby Slim"
+			],
+			[
+				"tas",
+				"Tasks: New document"
+			],
+			[
+				"task",
+				"Tasks: New document"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			],
+			[
+				"up",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"",
+				"Package Control: List Packages"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 146.0,
+		"history":
+		[
+			"git status"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/theprogramer/Projetos/tic-tac-toe",
+		"/home/theprogramer/Projetos/tic-tac-toe/lib",
+		"/home/theprogramer/Projetos/tic-tac-toe/lib/player"
+	],
+	"file_history":
+	[
+		"/home/theprogramer/Projetos/tic-tac-toe/lib/screen.rb",
+		"/home/theprogramer/Projetos/tic-tac-toe/lib/player.rb",
+		"/home/theprogramer/Projetos/tic-tac-toe/spec/game_spec.rb",
+		"/home/theprogramer/Projetos/tic-tac-toe/tic-tac-toe.sublime-project",
+		"/home/theprogramer/Projetos/tic-tac-toe/Gemfile",
+		"/home/theprogramer/Projetos/tic-tac-toe/Gemfile.lock",
+		"/home/theprogramer/Projetos/tic-tac-toe/spec/board_spec.rb",
+		"/home/theprogramer/Projetos/tic-tac-toe/spec/spec_helper.rb",
+		"/home/theprogramer/Projetos/tic-tac-toe/game.rb",
+		"/home/theprogramer/.cache/.fr-qW3VZP/pluga_developer_challenge/game.rb",
+		"/home/theprogramer/Projetos/erp/app/javascript/packs/erp_vue.js",
+		"/home/theprogramer/Projetos/erp/app/javascript/packs/components/entity/list.vue",
+		"/home/theprogramer/Projetos/erp/app/javascript/dashboard.vue",
+		"/home/theprogramer/Projetos/erp/app/javascript/packs/components/entity/form.vue",
+		"/home/theprogramer/Projetos/erp/app/javascript/packs/components/entity/routes.js",
+		"/home/theprogramer/Projetos/rttv/app/javascript/packs/router/index.js",
+		"/home/theprogramer/Projetos/erp/app/javascript/packs/router/routes.js",
+		"/home/theprogramer/Projetos/rttv/app/javascript/packs/router/routes.js",
+		"/home/theprogramer/Projetos/erp/app/views/entities/index.json.jbuilder",
+		"/home/theprogramer/Projetos/erp/app/controllers/entities_controller.rb",
+		"/home/theprogramer/Projetos/rttv/app/javascript/packs/store/modules/subjects/index.js",
+		"/home/theprogramer/Projetos/erp/app/javascript/packs/store/modules/entities/index.js",
+		"/home/theprogramer/Projetos/erp/Gemfile",
+		"/home/theprogramer/Projetos/rttv/app/controllers/users_controller.rb",
+		"/home/theprogramer/Projetos/rttv/app/views/users/_user.json.jbuilder",
+		"/home/theprogramer/Projetos/rttv/app/views/users/index.json.jbuilder",
+		"/home/theprogramer/Projetos/rttv/app/views/users/show.html.slim",
+		"/home/theprogramer/Projetos/erp/app/views/entities/_entity.json.jbuilder",
+		"/home/theprogramer/Projetos/rttv/spec/factories/users.rb",
+		"/home/theprogramer/Projetos/ninera/app/views/layouts/application.html.slim",
+		"/home/theprogramer/Projetos/ninera/app/views/shared/_footer.html.slim",
+		"/home/theprogramer/Projetos/ninera/config/routes.rb",
+		"/home/theprogramer/Projetos/ninera/test/models/user_test.rb",
+		"/home/theprogramer/Projetos/ninera/test/factories/users.rb",
+		"/home/theprogramer/Projetos/ninera/Gemfile",
+		"/home/theprogramer/Projetos/rttv/config/routes.rb",
+		"/home/theprogramer/Projetos/ninera/config/initializers/action_mailer.rb",
+		"/home/theprogramer/Projetos/ninera/config/initializers/internationalization.rb",
+		"/home/theprogramer/Projetos/ninera/db/migrate/20171218231052_add_geocoding_to_user.rb",
+		"/home/theprogramer/Projetos/ninera/db/migrate/20171218230932_geocoding_user.rb",
+		"/home/theprogramer/Projetos/ninera/db/migrate/20171218214815_devise_create_users.rb",
+		"/home/theprogramer/Projetos/ninera/db/migrate/20171218201856_enable_pgcrypto_extension.rb",
+		"/home/theprogramer/Projetos/rttv/app/javascript/packs/mixins/listable.js",
+		"/home/theprogramer/Projetos/rttv/app/javascript/packs/components/subject/list.vue",
+		"/home/theprogramer/Projetos/rttv/app/controllers/clipping/subjects_controller.rb",
+		"/home/theprogramer/Projetos/rttv/app/javascript/packs/components/subject/routes.js",
+		"/home/theprogramer/Projetos/rttv/app/javascript/packs/mixins/crud.js",
+		"/home/theprogramer/Projetos/domesticanet/data.csv",
+		"/home/theprogramer/Projetos/rttv/app/javascript/packs/components/subject/form.vue",
+		"/home/theprogramer/Projetos/rttv/app/javascript/packs/components/subject/modal.vue",
+		"/home/theprogramer/Projetos/rttv/app/javascript/packs/components/publisher/list.vue",
+		"/home/theprogramer/Projetos/rttv/app/javascript/dashboard.vue",
+		"/home/theprogramer/Projetos/rttv/app/javascript/packs/components/publisher/form.vue",
+		"/home/theprogramer/Projetos/rttv/app/views/clipping/subjects/_subject.json.jbuilder",
+		"/home/theprogramer/Projetos/rttv/app/views/clipping/publishers/index.json.jbuilder",
+		"/home/theprogramer/Projetos/rttv/app/views/clipping/publishers/show.json.jbuilder",
+		"/home/theprogramer/Projetos/rttv/app/controllers/clipping/sections_controller.rb",
+		"/home/theprogramer/Projetos/rttv/app/views/clipping/subjects/show.json.jbuilder",
+		"/home/theprogramer/Projetos/rttv/app/views/clipping/subjects/index.json.jbuilder",
+		"/home/theprogramer/Projetos/rttv/app/javascript/packs/components/publisher/sections.vue",
+		"/home/theprogramer/Projetos/rttv/app/javascript/packs/store/index.js",
+		"/home/theprogramer/Projetos/rttv/app/views/clipping/sections/show.json.jbuilder",
+		"/home/theprogramer/Projetos/rttv/app/controllers/clipping/publishers_controller.rb",
+		"/home/theprogramer/Projetos/rttv/app/views/clipping/sections/index.json.jbuilder",
+		"/home/theprogramer/Projetos/rttv/app/controllers/clipping/publications_controller.rb",
+		"/home/theprogramer/Projetos/rttv/app/views/clipping/sections/_section.json.jbuilder",
+		"/home/theprogramer/Projetos/rttv/app/javascript/packs/components/publisher/filter.vue",
+		"/home/theprogramer/Projetos/rttv/app/javascript/packs/components/publisher/routes.js",
+		"/home/theprogramer/Projetos/rttv/app/javascript/packs/components/user/list.vue",
+		"/home/theprogramer/Projetos/rttv/app/javascript/packs/components/publisher/modal.vue",
+		"/home/theprogramer/Projetos/rttv/app/views/users/show.json.jbuilder",
+		"/home/theprogramer/Projetos/rttv/app/javascript/packs/store/modules/publishers/index.js",
+		"/home/theprogramer/Projetos/rttv/app/sweepers/clipping/publisher_sweeper.rb",
+		"/home/theprogramer/Projetos/rttv/app/views/clipping/publications/index.json.jbuilder",
+		"/home/theprogramer/Projetos/rttv/app/views/clipping/publishers/_publisher.json.jbuilder",
+		"/home/theprogramer/Projetos/rttv/app/javascript/packs/components/user/routes.js",
+		"/home/theprogramer/Projetos/rttv/app/javascript/packs/components/user/form.vue",
+		"/home/theprogramer/Projetos/rttv/app/javascript/packs/components/user/schedule.vue",
+		"/home/theprogramer/Projetos/rttv/app/javascript/packs/dashboard_vue.js",
+		"/home/theprogramer/Projetos/rttv/app/models/concerns/transcodable.rb",
+		"/home/theprogramer/Projetos/rttv/app/javascript/packs/store/modules/users/index.js",
+		"/home/theprogramer/Projetos/rttv/app/javascript/packs/components/user/modal.vue",
+		"/home/theprogramer/Projetos/rttv/app/views/clipping/publications/show.html.slim",
+		"/home/theprogramer/Projetos/rttv/app/models/user.rb",
+		"/home/theprogramer/Projetos/rttv/app/models/clipping/publication.rb",
+		"/home/theprogramer/Projetos/erp/app/views/entities/show.json.jbuilder",
+		"/home/theprogramer/Projetos/rttv/app/views/users/index.html.slim",
+		"/home/theprogramer/Projetos/keminveste/app/models/user.rb",
+		"/home/theprogramer/Projetos/rttv/Gemfile",
+		"/home/theprogramer/Projetos/rttv/config/initializers/inflections.rb",
+		"/home/theprogramer/Projetos/rttv/app/controllers/api/application_controller.rb",
+		"/home/theprogramer/Projetos/rttv/app/controllers/api/users_controller.rb",
+		"/home/theprogramer/Projetos/rttv/app/views/pages/dashboard.html.slim",
+		"/home/theprogramer/Projetos/rttv/app/javascript/stylesheets/main.scss",
+		"/home/theprogramer/Projetos/rttv/app/views/layouts/dashboard.html.slim",
+		"/home/theprogramer/Projetos/rttv/app/javascript/app.vue",
+		"/home/theprogramer/Projetos/rttv/config/environments/production.rb",
+		"/home/theprogramer/Projetos/keminveste/app/javascript/packs/main_vue.js",
+		"/home/theprogramer/Projetos/rttv/app/javascript/stylesheets/partials/_button.scss",
+		"/home/theprogramer/Projetos/rttv/app/javascript/stylesheets/index.md",
+		"/home/theprogramer/Projetos/rttv/hologram_config.yml",
+		"/home/theprogramer/Projetos/rttv/.doc_assets/_header.html",
+		"/tmp/history.txt",
+		"/home/theprogramer/Projetos/rttv/app/controllers/pages_controller.rb",
+		"/home/theprogramer/Projetos/rttv/db/migrate/20150916124504_enable_uuid_extension.rb",
+		"/home/theprogramer/Projetos/rttv/db/migrate/20150916124505_set_default_text_search_config.rb",
+		"/home/theprogramer/Projetos/rttv/db/migrate/20150917014603_create_clipping_publishers.rb",
+		"/home/theprogramer/Projetos/rttv/db/migrate/20150917015229_create_clipping_sections.rb",
+		"/home/theprogramer/Projetos/rttv/db/migrate/20150917016351_create_clipping_subjects.rb",
+		"/home/theprogramer/Projetos/rttv/db/migrate/20150917023925_create_clipping_publications.rb",
+		"/home/theprogramer/Projetos/rttv/db/migrate/20151007020032_acts_as_taggable_on_migration.acts_as_taggable_on_engine.rb",
+		"/home/theprogramer/Projetos/rttv/db/migrate/20151007020033_add_missing_unique_indices.acts_as_taggable_on_engine.rb",
+		"/home/theprogramer/Projetos/rttv/db/migrate/20151007020034_add_taggings_counter_cache_to_tags.acts_as_taggable_on_engine.rb",
+		"/home/theprogramer/Projetos/rttv/db/migrate/20151007020035_add_missing_taggable_index.acts_as_taggable_on_engine.rb",
+		"/home/theprogramer/Projetos/rttv/db/migrate/20151007020036_change_collation_for_tag_names.acts_as_taggable_on_engine.rb",
+		"/home/theprogramer/Projetos/rttv/db/migrate/20151007035535_devise_create_users.rb",
+		"/home/theprogramer/Projetos/rttv/db/migrate/20151007142329_create_clipping_storages.rb",
+		"/home/theprogramer/Projetos/rttv/db/migrate/20151105125755_add_vector_columns_to_clipping_publications.rb",
+		"/home/theprogramer/Projetos/rttv/db/migrate/20151105161257_create_friendly_id_slugs.rb",
+		"/home/theprogramer/Projetos/rttv/db/migrate/20151218072749_create_join_table_clipping_publications_users.rb",
+		"/home/theprogramer/Projetos/rttv/db/migrate/20151227142647_add_role_to_user.rb",
+		"/home/theprogramer/Projetos/rttv/db/migrate/20151227144729_add_details_to_user.rb",
+		"/home/theprogramer/Projetos/rttv/db/migrate/20160105145140_add_username_to_users.rb",
+		"/home/theprogramer/Projetos/rttv/db/migrate/20160106155104_add_publications_count_to_clipping_publications.rb",
+		"/home/theprogramer/Projetos/rttv/db/migrate/20160108164843_update_index.rb",
+		"/home/theprogramer/Projetos/rttv/db/migrate/20160121080538_create_terms.rb",
+		"/home/theprogramer/Projetos/rttv/db/migrate/20160121192511_change_column_default_clipping_publication.rb",
+		"/home/theprogramer/Projetos/rttv/db/migrate/20160304172528_change_date_format_in_clipping_publication.rb"
+	],
+	"find":
+	{
+		"height": 40.0
+	},
+	"find_in_files":
+	{
+		"height": 128.0,
+		"where_history":
+		[
+			"<current file>",
+			"/home/theprogramer/Projetos/rttv/db/migrate",
+			"/home/theprogramer/Projetos/rttv/spec/",
+			"/home/theprogramer/Projetos/rttv/spec/factories",
+			"",
+			"/home/theprogramer/Projetos/onebody/config/locales/pt-BR",
+			"/home/theprogramer/Projetos/potededocuras/app/assets",
+			"/home/theprogramer/Projetos/domesticanet/app/assets",
+			"/home/theprogramer/Projetos/domesticanet/db/migrate",
+			"/home/theprogramer/Projetos/domesticanet/app",
+			"/home/theprogramer/Projetos/domesticanet/app/views",
+			"",
+			"<open files>",
+			"",
+			"/home/theprogramer/Projetos/potededocuras_rails/",
+			"/home/theprogramer/Projetos/domesticanet/",
+			"/home/theprogramer/Projetos/domesticanet/app/",
+			"/home/theprogramer/Projetos/domesticanet/app/views/static_pages",
+			"/home/theprogramer/Projetos/domesticanet/app",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"game_i",
+			"tie",
+			"game_id",
+			"get_best_move",
+			"ran",
+			"\"",
+			"loa",
+			"isSImple",
+			"size",
+			"subjec",
+			"by",
+			"user",
+			"User",
+			"size",
+			"this.ele",
+			"entity",
+			"trunca",
+			"flynn route",
+			"ActiveRecord::Migration",
+			"mailer",
+			"active_record",
+			"mime",
+			"FactoryGirl",
+			"FactotyGirl",
+			"FactotyBot",
+			"FactoryGirl",
+			"redis",
+			"asset_host",
+			"&#x00BC;",
+			"&#188",
+			"&#x201A;",
+			"like",
+			"84",
+			"cells",
+			"serv",
+			".date",
+			"publisher",
+			"publi",
+			"update",
+			"stora",
+			"cache",
+			"feed",
+			"term",
+			"save",
+			"serve",
+			"asset",
+			"sync",
+			"asse",
+			"includ",
+			"modalMail",
+			"jst",
+			"getPar",
+			"home",
+			"mime",
+			"action_con",
+			"select",
+			"branch",
+			"git branch",
+			"shared",
+			"jquery",
+			"eva",
+			"dura",
+			"leng",
+			"policy",
+			"tagg",
+			"tty",
+			"curre",
+			"map",
+			"use",
+			"chose",
+			"puma",
+			"rails",
+			"dot",
+			"file",
+			"\n      ",
+			"<li><img src=\"/ImageShow/",
+			"\n<li><img src=\"/ImageShow/0",
+			"<li><img src=\"/ImageShow/",
+			"ImageShow",
+			"img src=\"/ImageShow",
+			"g src=\"/",
+			">\n\n<li><img",
+			"\n\n<li><img",
+			"img",
+			"\n<li><",
+			"<li>",
+			"redirec",
+			"subjec\t",
+			"hidde",
+			"id",
+			"url",
+			"host",
+			"user",
+			"e",
+			":environment",
+			"links",
+			"detai",
+			"publica",
+			"find",
+			"active_job",
+			"side",
+			"res",
+			"recu",
+			"recue",
+			"close",
+			"search",
+			"chosen-choice",
+			"sprite",
+			"Editar Editar\t Editar Inline Edit\t Copiar Copiar",
+			"\t",
+			"1",
+			"><",
+			"\n<",
+			"product",
+			".actionsBox {\n  font-size: 13px;\n  font-family: Helvetica,Arial,Verdana;\n  font-style: normal;\n  left: 50%;\n  position: absolute;\n  top: -50px;\n  opacity: 0;\n  cursor: move;\n  .menu {\n    color: #47708F;\n    width: 240px;\n    line-height: 30px;\n    text-shadow: 1px 1px 0px #fff;\n    padding: 7px;\n    -moz-border-radius: 5px;\n    -webkit-border-radius: 5px;\n    border-radius: 5px;\n    font-weight: bold;\n    border: 1px solid #D9EAF2;\n    background: #e8f4fa;\n    background: -webkit-gradient(linear, left bottom, left top, color-stop(0.58, rgb(217, 234, 242)), color-stop(0.93, rgb(232, 244, 250)));\n    background: -moz-linear-gradient(center bottom, rgb(217, 234, 242) 58%, rgb(232, 244, 250) 93%);\n    -moz-box-shadow: 1px 1px 3px #999;\n    -webkit-box-shadow: 1px 1px 3px #999;\n    box-shadow: 1px 1px 3px #999;\n    .button {\n      padding: 4px 7px;\n      border: 1px solid #D9EAF2;\n      cursor: pointer;\n      background: #e8f4fa;\n      background: -webkit-gradient(linear, left bottom, left top, color-stop(0.38, rgb(230, 243, 249)), color-stop(0.88, rgb(245, 249, 250)));\n      background: -moz-linear-gradient(center bottom, rgb(230, 243, 249) 38%, rgb(245, 249, 250) 88%);\n      -moz-border-radius: 5px;\n      -webkit-border-radius: 5px;\n      border-radius: 5px;\n      -moz-box-shadow: 0px 1px 0px #f9f9f9;\n      -webkit-box-shadow: 0px 1px 0px #f9f9f9;\n      box-shadow: 0px 1px 0px #f9f9f9;\n      &:hover {\n        background: #fff;\n      }\n    }\n    span {\n      padding: 0px 10px;\n    }\n  }\n  .submenu {\n    display: none;\n    width: 120px;\n    margin-left: 100px;\n    top: 46px;\n    right: 10px;\n    background: #fff;\n    border: 1px solid #D9EAF2;\n    border-top: none;\n    -moz-border-radius: 0px 0px 10px 10px;\n    -webkit-border-bottom-left-radius: 10px;\n    -webkit-border-bottom-right-radius: 10px;\n    border-bottom-left-radius: 10px;\n    border-bottom-right-radius: 10px;\n    -moz-box-shadow: 0px 1px 4px #ddd;\n    -webkit-box-shadow: 0px 1px 4px #ddd;\n    box-shadow: 0px 1px 4px #ddd;\n    a {\n      display: block;\n      cursor: pointer;\n      padding: 10px 15px;\n      border-top: 1px solid #D9EAF2;\n      &.last {\n        -moz-border-radius: 0px 0px 10px 10px;\n        -webkit-border-bottom-left-radius: 10px;\n        -webkit-border-bottom-right-radius: 10px;\n        border-bottom-left-radius: 10px;\n        border-bottom-right-radius: 10px;\n      }\n      &.first {\n        border-top: none;\n      }\n      &:hover {\n        background-color: #f9f9f9;\n      }\n    }\n  }\n  .menu a {\n    &.open, &.closed {\n      border: 1px solid #D9EAF2;\n      padding: 4px 17px;\n      -moz-border-radius: 5px;\n      -webkit-border-radius: 5px;\n      border-radius: 5px;\n      -moz-box-shadow: 0px 1px 0px #f9f9f9;\n      -webkit-box-shadow: 0px 1px 0px #f9f9f9;\n      box-shadow: 0px 1px 0px #f9f9f9;\n      cursor: pointer;\n      opacity: 0.6;\n      margin-right: 5px;\n    }\n    &.open {\n      background: #fff url(../open.png) no-repeat center center;\n    }\n    &.closed {\n      background: #fff url(../closed.png) no-repeat center center;\n    }\n    &.open:hover, &.closed:hover {\n      opacity: 1.0;\n    }\n  }\n}.actionsBox {\n  font-size: 13px;\n  font-family: Helvetica,Arial,Verdana;\n  font-style: normal;\n  left: 50%;\n  position: absolute;\n  top: -50px;\n  opacity: 0;\n  cursor: move;\n  .menu {\n    color: #47708F;\n    width: 240px;\n    line-height: 30px;\n    text-shadow: 1px 1px 0px #fff;\n    padding: 7px;\n    -moz-border-radius: 5px;\n    -webkit-border-radius: 5px;\n    border-radius: 5px;\n    font-weight: bold;\n    border: 1px solid #D9EAF2;\n    background: #e8f4fa;\n    background: -webkit-gradient(linear, left bottom, left top, color-stop(0.58, rgb(217, 234, 242)), color-stop(0.93, rgb(232, 244, 250)));\n    background: -moz-linear-gradient(center bottom, rgb(217, 234, 242) 58%, rgb(232, 244, 250) 93%);\n    -moz-box-shadow: 1px 1px 3px #999;\n    -webkit-box-shadow: 1px 1px 3px #999;\n    box-shadow: 1px 1px 3px #999;\n    .button {\n      padding: 4px 7px;\n      border: 1px solid #D9EAF2;\n      cursor: pointer;\n      background: #e8f4fa;\n      background: -webkit-gradient(linear, left bottom, left top, color-stop(0.38, rgb(230, 243, 249)), color-stop(0.88, rgb(245, 249, 250)));\n      background: -moz-linear-gradient(center bottom, rgb(230, 243, 249) 38%, rgb(245, 249, 250) 88%);\n      -moz-border-radius: 5px;\n      -webkit-border-radius: 5px;\n      border-radius: 5px;\n      -moz-box-shadow: 0px 1px 0px #f9f9f9;\n      -webkit-box-shadow: 0px 1px 0px #f9f9f9;\n      box-shadow: 0px 1px 0px #f9f9f9;\n      &:hover {\n        background: #fff;\n      }\n    }\n    span {\n      padding: 0px 10px;\n    }\n  }\n  .submenu {\n    display: none;\n    width: 120px;\n    margin-left: 100px;\n    top: 46px;\n    right: 10px;\n    background: #fff;\n    border: 1px solid #D9EAF2;\n    border-top: none;\n    -moz-border-radius: 0px 0px 10px 10px;\n    -webkit-border-bottom-left-radius: 10px;\n    -webkit-border-bottom-right-radius: 10px;\n    border-bottom-left-radius: 10px;\n    border-bottom-right-radius: 10px;\n    -moz-box-shadow: 0px 1px 4px #ddd;\n    -webkit-box-shadow: 0px 1px 4px #ddd;\n    box-shadow: 0px 1px 4px #ddd;\n    a {\n      display: block;\n      cursor: pointer;\n      padding: 10px 15px;\n      border-top: 1px solid #D9EAF2;\n      &.last {\n        -moz-border-radius: 0px 0px 10px 10px;\n        -webkit-border-bottom-left-radius: 10px;\n        -webkit-border-bottom-right-radius: 10px;\n        border-bottom-left-radius: 10px;\n        border-bottom-right-radius: 10px;\n      }\n      &.first {\n        border-top: none;\n      }\n      &:hover {\n        background-color: #f9f9f9;\n      }\n    }\n  }\n  .menu a {\n    &.open, &.closed {\n      border: 1px solid #D9EAF2;\n      padding: 4px 17px;\n      -moz-border-radius: 5px;\n      -webkit-border-radius: 5px;\n      border-radius: 5px;\n      -moz-box-shadow: 0px 1px 0px #f9f9f9;\n      -webkit-box-shadow: 0px 1px 0px #f9f9f9;\n      box-shadow: 0px 1px 0px #f9f9f9;\n      cursor: pointer;\n      opacity: 0.6;\n      margin-right: 5px;\n    }\n    &.open {\n      background: #fff url(../open.png) no-repeat center center;\n    }\n    &.closed {\n      background: #fff url(../closed.png) no-repeat center center;\n    }\n    &.open:hover, &.closed:hover {\n      opacity: 1.0;\n    }\n  }\n}",
+			"db/migrate",
+			"Editar",
+			"        ",
+			"Editar",
+			"customers",
+			"contacts",
+			"comments",
+			"advertisers",
+			"checks_storages",
+			"checks",
+			"campaigns",
+			"blocks",
+			"Estrutura"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"'",
+			"ActiveRecord::Migration[4.2]",
+			"FactoryBot",
+			"FactotyBot",
+			"FactoryBot",
+			"pt-BR:",
+			"---\\npt-BR:",
+			"state",
+			"name",
+			"acronym",
+			"rgba($base, 0.9)",
+			"$darkBase",
+			"$base",
+			"<a href=\"http://theprogramer.com.br/\" class=\"link\" target=\"_blank\">TheProgramer.com.br</a></strong></div>",
+			"&copy; 2014 Pote de Doçuras, Designed by ",
+			"rgba(252, 199, 31, 0.75);",
+			"#fdf9f4",
+			"#b76e25",
+			"asset-url(",
+			".jpg\"",
+			".png\"",
+			"\"",
+			"",
+			"= image_tag \"",
+			"Lobster"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 5,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "README.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1166,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								734,
+								734
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MarkdownEditing/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 432.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "game.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1933,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1870,
+								1870
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "lib/board.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1316,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								168,
+								168
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1056.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "lib/screen.rb",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 910,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								464,
+								464
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "lib/player/base.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 207,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								188,
+								188
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax",
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "lib/player/computer.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1392,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								237,
+								237
+							]
+						],
+						"settings":
+						{
+							"auto_name": "module Player",
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax",
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 96.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "lib/player/human.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 239,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								42,
+								42
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax",
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 40.0
+	},
+	"input":
+	{
+		"height": 52.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 118.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "tic-tac-toe.sublime-project",
+	"replace":
+	{
+		"height": 76.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"install",
+				"/home/theprogramer/Projetos/domesticanet/app/assets/stylesheets/partials/_variables.scss"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 209.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
