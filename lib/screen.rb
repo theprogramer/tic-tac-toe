@@ -8,19 +8,39 @@ class Screen
   end
 
   def self.info(msg = '')
-    puts "\e[34m#{msg}\e[0m"
+    puts blue(msg)
   end
 
   def self.error(msg = '')
-    puts "\e[31m#{msg}\e[0m"
+    puts red(msg)
   end
 
   def self.success(msg = '')
-    puts "\e[32m#{msg}\e[0m"
+    puts green(msg)
   end
 
   def self.normal(msg = '')
-    puts "\e[29m#{msg}\e[0m"
+    puts white(msg)
+  end
+
+  def self.white(msg = '')
+    "\e[29m#{msg}\e[0m"
+  end
+
+  def self.green(msg = '')
+    "\e[32m#{msg}\e[0m"
+  end
+
+  def self.red(msg = '')
+    "\e[31m#{msg}\e[0m"
+  end
+
+  def self.blue(msg = '')
+    "\e[34m#{msg}\e[0m"
+  end
+
+  def self.brown(msg = '')
+    "\e[33m#{msg}\e[0m"
   end
 
   def self.choice(options = [], msg = '', err = '')
